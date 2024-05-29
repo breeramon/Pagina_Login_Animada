@@ -8,8 +8,8 @@
 }
 
 body{
-  background-color: #c9d6ff;
-  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  background-color: #000;
+  background: linear-gradient(to right, #778899, #E6E6FA);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-  background-color: #fff;
+  background-color: #FFFAFA;
   border-radius: 30px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
   position: relative;
@@ -47,8 +47,8 @@ body{
 }
 
 .container button{
-  background-color: #512da8;
-  color: #fff;
+  background-color: #512d;
+  color: #FFFAFA;
   font-size: 12px;
   padding: 10px 45px;
   border: 1px solid transparent;
@@ -62,11 +62,11 @@ body{
 
 .container button.hidden{
   background-color: transparent;
-  border-color: #fff;
+  border-color: #FFFAFA;
 }
 
 .container form{
-  background-color: #fff;
+  background-color: #FFFAFA;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,9 +161,9 @@ body{
 }
 
 .toggle{
-  background-color: #512da8;
+  background-color: #512d;
   height: 100%;
-  background: linear-gradient(to right, #5c6bc0, #512da8);
+  background: linear-gradient(to right, #512d, #512d);
   color: #fff;
   position: relative;
   left: -100%;
